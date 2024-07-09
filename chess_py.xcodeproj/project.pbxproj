@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE373852C3D881400E95AF2 /* chess_pyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373842C3D881400E95AF2 /* chess_pyApp.swift */; };
+		FAE373872C3D881400E95AF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373862C3D881400E95AF2 /* ContentView.swift */; };
+		FAE373892C3D881900E95AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE373882C3D881900E95AF2 /* Assets.xcassets */; };
+		FAE3738C2C3D881900E95AF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE3738B2C3D881900E95AF2 /* Preview Assets.xcassets */; };
+		FAE373972C3D881A00E95AF2 /* chess_pyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373962C3D881A00E95AF2 /* chess_pyTests.swift */; };
+		FAE373A12C3D881A00E95AF2 /* chess_pyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373A02C3D881A00E95AF2 /* chess_pyUITests.swift */; };
+		FAE373A32C3D881A00E95AF2 /* chess_pyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE373A22C3D881A00E95AF2 /* chess_pyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE373932C3D881A00E95AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE373792C3D881400E95AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE373802C3D881400E95AF2;
+			remoteInfo = chess_py;
+		};
+		FAE3739D2C3D881A00E95AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE373792C3D881400E95AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE373802C3D881400E95AF2;
+			remoteInfo = chess_py;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE373812C3D881400E95AF2 /* chess_py.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chess_py.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE373842C3D881400E95AF2 /* chess_pyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chess_pyApp.swift; sourceTree = "<group>"; };
+		FAE373862C3D881400E95AF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAE373882C3D881900E95AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE3738B2C3D881900E95AF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAE3738D2C3D881900E95AF2 /* chess_py.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chess_py.entitlements; sourceTree = "<group>"; };
+		FAE373922C3D881A00E95AF2 /* chess_pyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chess_pyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE373962C3D881A00E95AF2 /* chess_pyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chess_pyTests.swift; sourceTree = "<group>"; };
+		FAE3739C2C3D881A00E95AF2 /* chess_pyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chess_pyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE373A02C3D881A00E95AF2 /* chess_pyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chess_pyUITests.swift; sourceTree = "<group>"; };
+		FAE373A22C3D881A00E95AF2 /* chess_pyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chess_pyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE3737E2C3D881400E95AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3738F2C3D881A00E95AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE373992C3D881A00E95AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE373782C3D881400E95AF2 = {
+			isa = PBXGroup;
+			children = (
+				FAE373832C3D881400E95AF2 /* chess_py */,
+				FAE373952C3D881A00E95AF2 /* chess_pyTests */,
+				FAE3739F2C3D881A00E95AF2 /* chess_pyUITests */,
+				FAE373822C3D881400E95AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE373822C3D881400E95AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE373812C3D881400E95AF2 /* chess_py.app */,
+				FAE373922C3D881A00E95AF2 /* chess_pyTests.xctest */,
+				FAE3739C2C3D881A00E95AF2 /* chess_pyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE373832C3D881400E95AF2 /* chess_py */ = {
+			isa = PBXGroup;
+			children = (
+				FAE373842C3D881400E95AF2 /* chess_pyApp.swift */,
+				FAE373862C3D881400E95AF2 /* ContentView.swift */,
+				FAE373882C3D881900E95AF2 /* Assets.xcassets */,
+				FAE3738D2C3D881900E95AF2 /* chess_py.entitlements */,
+				FAE3738A2C3D881900E95AF2 /* Preview Content */,
+			);
+			path = chess_py;
+			sourceTree = "<group>";
+		};
+		FAE3738A2C3D881900E95AF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3738B2C3D881900E95AF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE373952C3D881A00E95AF2 /* chess_pyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE373962C3D881A00E95AF2 /* chess_pyTests.swift */,
+			);
+			path = chess_pyTests;
+			sourceTree = "<group>";
+		};
+		FAE3739F2C3D881A00E95AF2 /* chess_pyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE373A02C3D881A00E95AF2 /* chess_pyUITests.swift */,
+				FAE373A22C3D881A00E95AF2 /* chess_pyUITestsLaunchTests.swift */,
+			);
+			path = chess_pyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE373802C3D881400E95AF2 /* chess_py */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE373A62C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_py" */;
+			buildPhases = (
+				FAE3737D2C3D881400E95AF2 /* Sources */,
+				FAE3737E2C3D881400E95AF2 /* Frameworks */,
+				FAE3737F2C3D881400E95AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chess_py;
+			productName = chess_py;
+			productReference = FAE373812C3D881400E95AF2 /* chess_py.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE373912C3D881A00E95AF2 /* chess_pyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE373A92C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_pyTests" */;
+			buildPhases = (
+				FAE3738E2C3D881A00E95AF2 /* Sources */,
+				FAE3738F2C3D881A00E95AF2 /* Frameworks */,
+				FAE373902C3D881A00E95AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE373942C3D881A00E95AF2 /* PBXTargetDependency */,
+			);
+			name = chess_pyTests;
+			productName = chess_pyTests;
+			productReference = FAE373922C3D881A00E95AF2 /* chess_pyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE3739B2C3D881A00E95AF2 /* chess_pyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE373AC2C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_pyUITests" */;
+			buildPhases = (
+				FAE373982C3D881A00E95AF2 /* Sources */,
+				FAE373992C3D881A00E95AF2 /* Frameworks */,
+				FAE3739A2C3D881A00E95AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE3739E2C3D881A00E95AF2 /* PBXTargetDependency */,
+			);
+			name = chess_pyUITests;
+			productName = chess_pyUITests;
+			productReference = FAE3739C2C3D881A00E95AF2 /* chess_pyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE373792C3D881400E95AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FAE373802C3D881400E95AF2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FAE373912C3D881A00E95AF2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAE373802C3D881400E95AF2;
+					};
+					FAE3739B2C3D881A00E95AF2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FAE373802C3D881400E95AF2;
+					};
+				};
+			};
+			buildConfigurationList = FAE3737C2C3D881400E95AF2 /* Build configuration list for PBXProject "chess_py" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE373782C3D881400E95AF2;
+			productRefGroup = FAE373822C3D881400E95AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE373802C3D881400E95AF2 /* chess_py */,
+				FAE373912C3D881A00E95AF2 /* chess_pyTests */,
+				FAE3739B2C3D881A00E95AF2 /* chess_pyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE3737F2C3D881400E95AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE3738C2C3D881900E95AF2 /* Preview Assets.xcassets in Resources */,
+				FAE373892C3D881900E95AF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE373902C3D881A00E95AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3739A2C3D881A00E95AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE3737D2C3D881400E95AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE373872C3D881400E95AF2 /* ContentView.swift in Sources */,
+				FAE373852C3D881400E95AF2 /* chess_pyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE3738E2C3D881A00E95AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE373972C3D881A00E95AF2 /* chess_pyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE373982C3D881A00E95AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE373A32C3D881A00E95AF2 /* chess_pyUITestsLaunchTests.swift in Sources */,
+				FAE373A12C3D881A00E95AF2 /* chess_pyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE373942C3D881A00E95AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE373802C3D881400E95AF2 /* chess_py */;
+			targetProxy = FAE373932C3D881A00E95AF2 /* PBXContainerItemProxy */;
+		};
+		FAE3739E2C3D881A00E95AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE373802C3D881400E95AF2 /* chess_py */;
+			targetProxy = FAE3739D2C3D881A00E95AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAE373A42C3D881A00E95AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE373A52C3D881A00E95AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FAE373A72C3D881A00E95AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chess_py/chess_py.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chess_py/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-py";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAE373A82C3D881A00E95AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chess_py/chess_py.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chess_py/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-py";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAE373AA2C3D881A00E95AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-pyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chess_py.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chess_py";
+			};
+			name = Debug;
+		};
+		FAE373AB2C3D881A00E95AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-pyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chess_py.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chess_py";
+			};
+			name = Release;
+		};
+		FAE373AD2C3D881A00E95AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-pyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chess_py;
+			};
+			name = Debug;
+		};
+		FAE373AE2C3D881A00E95AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alalparkh.chess-pyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chess_py;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE3737C2C3D881400E95AF2 /* Build configuration list for PBXProject "chess_py" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE373A42C3D881A00E95AF2 /* Debug */,
+				FAE373A52C3D881A00E95AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE373A62C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_py" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE373A72C3D881A00E95AF2 /* Debug */,
+				FAE373A82C3D881A00E95AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE373A92C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_pyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE373AA2C3D881A00E95AF2 /* Debug */,
+				FAE373AB2C3D881A00E95AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE373AC2C3D881A00E95AF2 /* Build configuration list for PBXNativeTarget "chess_pyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE373AD2C3D881A00E95AF2 /* Debug */,
+				FAE373AE2C3D881A00E95AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE373792C3D881400E95AF2 /* Project object */;
+}
